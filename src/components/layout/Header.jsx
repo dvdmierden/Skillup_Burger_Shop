@@ -5,6 +5,7 @@ import { FiShoppingCart, FiLogIn } from "react-icons/fi";
 import { FaUser } from "react-icons/fa";
 import { motion } from "framer-motion";
 import DropdownMenu from './DropdownMenu';
+
 const Header = ({ isAuthenticated = false }) => {
     return (
         <nav>
